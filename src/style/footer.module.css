@@ -1,0 +1,72 @@
+.footer {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.reclambook {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+  border-bottom: 1px solid black;
+}
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 350px;
+  padding: 100px;
+}
+
+.info .logo img {
+  height: auto;
+  width: 200px;
+}
+
+.info .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.info .menu a {
+  width: 100%;
+  text-align: left;
+}
+.info .contacts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.info .contacts p {
+  width: 100%;
+  text-align: left;
+}
+@media screen and (max-width: 1200px) {
+  .reclambook{
+    justify-content: space-between;
+  }
+  .info {
+    flex-direction: column;
+    gap: 50px;
+    padding: 30px;
+    align-items: center;
+  }
+  .info .contacts{
+    align-items: center;
+  }
+  .info .contacts p{
+    text-align: center;
+  }
+  .info .menu{
+    align-items: center;
+  }
+  .info .menu a{
+    text-align: center;
+  }
+
+}

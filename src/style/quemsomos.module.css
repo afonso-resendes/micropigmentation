@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+.slider {
+  width: 100%;
+  height: 115vh;
+}
+.slide {
+  width: 100%;
+  height: 115vh;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.active {
+  width: 100%;
+  height: 115vh;
+  position: relative;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0) 0%,
+    rgba(0, 0, 0, 0.8026687237394958) 100%
+  );
+}
+.slider .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.9136029411764706) 0%,
+    rgba(255, 255, 255, 0) 50%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  opacity: 0.73;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+.active img,
+.slide img {
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.banner p:nth-child(2) {
+  color: #e4cb86b3;
+  font-weight: 700;
+}
+
+.banner a {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  fill: #a49d8f;
+  color: #a49d8f;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--e-global-color-astglobalcolor3);
+  padding: 0px 0px 4px 0px;
+}
+
+.texts {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 75px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", Sans-serif;
+  background-image: url("/pedraback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texts .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgb(0 0 0 / 72%) 50%,
+    rgba(0, 0, 0, 0.63) 74%
+  );
+  z-index: 1;
+}
+.textComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+  max-width: 1200px;
+  z-index: 2;
+}
+.textComp h2,
+.textComp h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #a49d8f;
+}
+
+.textComp h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.textComp p {
+  padding: 20px 0px;
+  font-weight: lighter;
+  line-height: 1.8em;
+}
+.textComp .link {
+  width: 100%;
+}
+.textComp .link a {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 2.5px;
+  fill: #a49d8f;
+  color: #a49d8f;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--e-global-color-astglobalcolor3);
+  padding: 0px 0px 4px 0px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 30px;
+}
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: justify;
+  width: 25%;
+  min-height: 550px;
+}
+.cards .card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.cards .card h2 {
+  padding: 10px;
+  color: #a49d8f;
+  font-family: "Roboto", Sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+}
+.cards .card p {
+  height: 200px;
+}
+.cards .card a {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 2.5px;
+  fill: #a49d8f;
+  color: #a49d8f;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--e-global-color-astglobalcolor3);
+  padding-top: 50px;
+}
+.divideWin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 50px;
+}
+.divideWin .images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.divideWin .images img {
+  width: 45%;
+  height: auto;
+}
+
+.divideWin div {
+  width: 50%;
+}
+.ourSpace {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.ourSpace > h2 {
+  padding: 20px;
+  color: #e4cb86b3;
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    1fr
+  ); /* Creates 5 columns with equal width */
+  align-items: center;
+  justify-items: center;
+  gap: 10px; /* Adjust the gap between items as needed */
+  max-width: 1200px;
+}
+
+.gallery .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.gallery .item:hover {
+}
+
+.gallery .item img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.story {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", Sans-serif;
+  padding-bottom: 100px;
+}
+
+.divideFaq {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 50px;
+  max-width: 1200px;
+  z-index: 2;
+  gap: 45px;
+}
+.divideFaq img {
+  width: 70%;
+  height: 780px;
+  object-fit: cover;
+}
+
+.faqText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  text-align: justify;
+}
+.faqText h2 {
+  color: #e4cb86b3;
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.faqText h3 {
+  text-align: left;
+  width: 100%;
+  color: #e4cb86b3;
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.faqText p {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8em;
+}
+.perspectiveContainer {
+  overflow: hidden;
+  perspective: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  /* Ensure the parent has a perspective to make the effect more pronounced */
+}
+
+.tiltContainer {
+  transition: transform 0.1s ease-out;
+  /* Adjust as needed for smooth transitions */
+}
+.tiltContainer img {
+  max-width: 100%;
+  max-height: 700px;
+  display: block; /* Remove extra space below the image */
+}
+.logocomplete {
+  width: 100%;
+  height: auto;
+}
+.instaLogo {
+  color: #a49d8f;
+}
+.instaLogo:hover {
+  color: #e4cb86;
+}
+@media screen and (max-width: 1270px) {
+  .texts {
+    padding: 75px 100px;
+  }
+  .textComp h2,
+  .textComp h3 {
+    text-align: center;
+  }
+  .faqText {
+    width: auto;
+  }
+  .faqText h2 {
+    text-align: center;
+  }
+  .divideFaq {
+    flex-direction: column-reverse;
+    padding: 0px 150px;
+    align-items: center;
+  }
+  .divideFaq img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .cards {
+    flex-direction: column;
+  }
+  .cards .card {
+    width: auto;
+  }
+  .cards .card p {
+    height: auto;
+  }
+  .divideFaq {
+    padding: 0px 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .divideWin {
+    flex-direction: column;
+  }
+  .divideWin div {
+    width: auto;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .divideFaq {
+    padding: 0px 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .banner {
+    font-size: 30px;
+  }
+  .texts {
+    padding: 50px 30px;
+  }
+  .textComp {
+    text-align: justify;
+  }
+  .textComp h2 {
+    font-size: 25px;
+  }
+  .textComp h3 {
+    font-size: 15px;
+  }
+  .faqText h2 {
+    font-size: 25px;
+  }
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .divideFaq {
+    padding: 0px 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .banner {
+    font-size: 27px;
+  }
+  .divideFaq {
+    padding: 0px 10px;
+  }
+}

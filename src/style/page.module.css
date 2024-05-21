@@ -1,0 +1,605 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+.slider {
+  width: 100%;
+  height: 100vh;
+}
+.slider .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.527);
+
+  opacity: 0.73;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+.slide {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.active {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.active img,
+.slide img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-position: 0px -150px;
+}
+
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0%, -50%);
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  z-index: 2;
+}
+
+.banner p:nth-child(2) {
+  color: #e4cb86b3;
+  font-weight: 700;
+}
+
+.banner a {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  fill: #a49d8f;
+  color: #a49d8f;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--e-global-color-astglobalcolor3);
+  padding: 0px 0px 4px 0px;
+}
+.comparison {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper1 {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  max-width: 1200px;
+  background: rgba(0, 0, 0, 0);
+  box-shadow: rgb(255, 0, 0);
+  border-radius: 1%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper1 .images1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.wrapper1 .images1 .img1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: url("/antes1.png");
+  background-size: 1200px; /* Set the width of the image explicitly and let the height auto adjust */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.wrapper1 .images1 .img2 {
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  background: url("/depois1.png");
+  background-size: 1200px; /* Set the width of the image explicitly and let the height auto adjust */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.wrapper1 .slider1 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 80%,
+    rgba(0, 0, 0, 0.8026687237394958) 100%
+  );
+}
+.slider1 input {
+  width: 100%;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  height: 100vh;
+}
+.slider1 input::-webkit-slider-thumb {
+  height: 100vh;
+  width: 3px;
+  background: none;
+  -webkit-appearance: none;
+  cursor: col-resize;
+}
+.slider1 .dragline1 {
+  width: 3px;
+  height: 100%;
+  border: 2px solid white;
+  position: absolute;
+  left: 49.85%;
+  pointer-events: none;
+}
+.slider1 .dragline1::before,
+.slider1 .dragline1::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 225px;
+}
+.slider1 .dragline1::before {
+  top: 0;
+}
+.slider1 .dragline1::after {
+  bottom: 0;
+}
+.slider1 .dragline1 span {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, 50%);
+}
+.slider1 .dragline1 span::before,
+.slider1 .dragline1 span::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  border: 10px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+.slider1 .dragline1 span::before {
+  left: 40%;
+  border-left-color: #fff;
+}
+.slider1 .dragline1 span::after {
+  left: 60%;
+  border-top-color: #fff;
+}
+.texts {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 75px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", Sans-serif;
+  background-image: url("/pedraback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.texts .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgb(0 0 0 / 72%) 50%, rgb(0, 0, 0) 74%);
+  z-index: 1;
+}
+.textComp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 25px;
+  max-width: 1200px;
+  z-index: 2;
+}
+.textComp h2,
+.textComp h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #a49d8f;
+}
+
+.textComp h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.textComp p {
+  padding: 20px 0px;
+  font-weight: lighter;
+  line-height: 1.8em;
+}
+.textComp .link {
+  width: 100%;
+}
+.textComp .link a {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 2.5px;
+  fill: #a49d8f;
+  color: #a49d8f;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--e-global-color-astglobalcolor3);
+  padding: 0px 0px 4px 0px;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 30px;
+}
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: justify;
+  width: 25%;
+  min-height: 550px;
+}
+.cards .card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.cards .card h2 {
+  padding: 10px;
+  color: #a49d8f;
+  font-family: "Roboto", Sans-serif;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.cards .card p {
+  height: 260px;
+}
+.cards .card a {
+  font-family: "Roboto", Sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  letter-spacing: 2.5px;
+  fill: #a49d8f;
+  color: #a49d8f;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: var(--e-global-color-astglobalcolor3);
+}
+.divideWin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 50px;
+  padding-bottom: 138px;
+  gap: 20px;
+}
+.divideWin .images {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.divideWin .images > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.divideWin .images img {
+  width: 100%;
+  height: auto;
+}
+
+.divideWin div {
+  width: 50%;
+}
+.ourSpace {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.ourSpace > h2 {
+  padding: 20px;
+  color: #e4cb86b3;
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(
+    5,
+    1fr
+  ); /* Creates 5 columns with equal width */
+  align-items: center;
+  justify-items: center;
+  gap: 10px; /* Adjust the gap between items as needed */
+  max-width: 1200px;
+}
+.gallery .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  position: relative;
+}
+.overlayGa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.267);
+  opacity: 0; /* Overlay is initially invisible */
+  transition: opacity 0.3s ease-in-out;
+}
+.gallery .item:hover .overlayGa {
+  opacity: 1;
+  cursor: pointer;
+}
+.gallery .item img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.faq {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Roboto", Sans-serif;
+  background-image: url("/pedraback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.faq .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgb(0 0 0 / 72%) 50%, rgb(0, 0, 0) 95%);
+  z-index: 1;
+}
+.divideFaq {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 50px;
+  max-width: 1200px;
+  z-index: 2;
+  gap: 20px;
+  width: 100%;
+}
+.divideFaq1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: justify;
+  padding-top: 50px;
+  max-width: 1200px;
+  z-index: 2;
+  gap: 20px;
+  width: 100%;
+}
+.divideFaq img {
+  width: 50%;
+  object-fit: cover;
+}
+.divideFaq1 img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.faqText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+.faqText h2 {
+  color: #e4cb86b3;
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.faqText h3 {
+  text-align: left;
+  width: 100%;
+  color: #e4cb86b3;
+  font-family: "Roboto", Sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.faqText p {
+  text-align: justify;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.8em;
+  width: 100%;
+}
+@media screen and (max-width: 1270px) {
+  .active img,
+.slide img {
+  object-position: center;
+}
+  .wrapper1 {
+    max-width: 1000px;
+  }
+  .wrapper1 .images1 .img1,
+  .wrapper1 .images1 .img2 {
+    max-width: 1000px;
+    background-size: 1000px;
+    background-position: left bottom;
+  }
+  .texts {
+    padding: 75px 100px;
+  }
+  .divideFaq {
+    flex-direction: column-reverse;
+    padding: 50px 150px;
+    align-items: center;
+  }
+  .divideFaq img {
+    width: 100%;
+  }
+  .divideFaq1 {
+    flex-direction: column-reverse;
+    padding: 50px 150px;
+    align-items: center;
+  }
+  .divideFaq1 img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .wrapper1 {
+    max-width: 800px;
+  }
+  .wrapper1 .images1 .img1,
+  .wrapper1 .images1 .img2 {
+    max-width: 800px;
+    background-size: 800px;
+  }
+  .cards {
+    flex-direction: column;
+  }
+  .cards .card {
+    width: auto;
+  }
+  .cards .card p {
+    height: auto;
+  }
+  .divideFaq {
+    padding: 50px 100px;
+  }
+  .divideFaq1 {
+    padding: 50px 100px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .comparison {
+    height: 70vh;
+  }
+  .wrapper1 {
+    max-width: 600px;
+  }
+  .wrapper1 .images1 .img1,
+  .wrapper1 .images1 .img2 {
+    max-width: 600px;
+    background-size: 600px;
+  }
+  .divideWin {
+    flex-direction: column;
+  }
+  .divideWin div {
+    width: auto;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .divideFaq {
+    padding: 50px 50px;
+  }
+  .divideFaq1 {
+    padding: 50px 50px;
+  }
+  .faqText h2{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .wrapper1 {
+    max-width: 400px;
+  }
+  .wrapper1 .images1 .img1,
+  .wrapper1 .images1 .img2 {
+    max-width: 400px;
+    background-position-x: -90px;
+  }
+  .banner {
+    font-size: 30px;
+  }
+  .texts {
+    padding: 50px 30px;
+  }
+  .textComp {
+    text-align: justify;
+  }
+  .textComp h2 {
+    font-size: 27px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .divideFaq {
+    padding: 50px 25px;
+  }
+  .divideFaq1 {
+    padding: 50px 25px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .wrapper1 {
+    max-width: 300px;
+  }
+  .wrapper1 .images1 .img1,
+  .wrapper1 .images1 .img2 {
+    max-width: 300px;
+    background-position-x: -150px;
+  }
+  .banner {
+    font-size: 27px;
+  }
+  .divideFaq {
+    padding: 50px 30px;
+  }
+  .divideFaq1 {
+    padding: 50px 0px;
+  }
+}

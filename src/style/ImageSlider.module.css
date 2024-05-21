@@ -1,0 +1,104 @@
+/* ImageSlider.module.css */
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 210px;
+  z-index: 1;
+  max-width: 1200px; /* Adjust based on your preference */
+}
+
+.sliderInner {
+  display: flex;
+  gap: 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.imgSlide {
+  width: calc(100% / 3); /* Each image takes one-third of the container */
+  flex: 0 0 auto; /* Prevents flex items from growing or shrinking */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.leftArrow,
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  z-index: 10;
+}
+
+.leftArrow {
+  left: 10px;
+}
+
+.rightArrow {
+  right: 10px;
+}
+/* style/ImageSlider.module.css */
+.sliderCar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mainImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.imageCar {
+  width: 100%;
+  height: 700px;
+  object-fit: contain;
+}
+
+.thumbnailContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.thumbnail {
+  width: 100%; /* Adjust based on the number of thumbnails */
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.thumbnailImage {
+  width: 100%;
+  height: 150px; /* Fixed height for thumbnails */
+  object-fit: cover;
+}
+.navButton {
+  border: none;
+  background: #313131;
+  padding: 10px;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .image {
+
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+.imageCar{
+  height: 100%;
+}
+}
