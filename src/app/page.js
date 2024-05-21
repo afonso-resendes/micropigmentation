@@ -4,8 +4,6 @@ import Image from "next/image";
 import styles from "@/style/page.module.css";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import { Moveable } from "react-moveable";
-import { FaBars } from "react-icons/fa"; // Exemplo de ícone
 import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css"; // Import lightbox style
 
