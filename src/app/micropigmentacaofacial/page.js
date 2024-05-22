@@ -15,7 +15,7 @@ export default function Home() {
   const [index, setIndex] = useState(0);
 
   // Your images in the slide directory
-  const images = ["/cont/servicos/Facial/Imagem Principal/IMG_7582.jpg"];
+  const images = ["/cont/servicos/Facial/ImagemPrincipal/IMG_7582.jpg"];
   const imagesCar = [
     "/cont/servicos/Facial/Album/5FDC2437-89B7-4FE8-84F8-BB11843EC0DE.jpeg",
     "/cont/servicos/Facial/Album/8A64965E-039D-4BC5-B259-0A9323FCCEF4.jpeg",
@@ -88,7 +88,7 @@ export default function Home() {
               <div>
                 <h3>{t("Antes")}</h3>
                 <Image
-                  src="/cont/servicos/Facial/Antes e Depois/IMG_7536_2.jpg"
+                  src="/cont/servicos/Facial/AnteseDepois/IMG_7536_2.jpg"
                   width={500}
                   height={500}
                   alt={t("FEEDBACK")}
@@ -97,7 +97,7 @@ export default function Home() {
               <div>
                 <h3>{t("Depois")}</h3>
                 <Image
-                  src="/cont/servicos/Facial/Antes e Depois/IMG_7536_1.jpg"
+                  src="/cont/servicos/Facial/AnteseDepois/IMG_7536_1.jpg"
                   width={500}
                   height={500}
                   alt={t("FEEDBACK")}
