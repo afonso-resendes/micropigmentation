@@ -127,14 +127,16 @@ export default function Home() {
         </div>
         <ImageSlider images={imagesSlider} />
         <div className={styles.perspectiveContainer}>
-          <div
-            className={styles.tiltContainer}
-            style={{
-              transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
-            }}
-          >
-            <img src="/mobile.png" alt="Descriptive Alt Text" />
-          </div>
+          <a href="https://instagram.com/jmicropigmentation">
+            <div
+              className={styles.tiltContainer}
+              style={{
+                transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
+              }}
+            >
+              <img src="/mobile.png" alt="Descriptive Alt Text" />
+            </div>
+          </a>
         </div>
         <div
           className={styles.textComp}
@@ -149,7 +151,7 @@ export default function Home() {
             height={500}
           />
           <a
-            href="https://instagram.com/yourusername"
+            href="https://instagram.com/jmicropigmentation"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.instaLogo}

@@ -80,7 +80,7 @@ export default function Home() {
             <div className={styles.banner}>
               <p>{t("MICROPIGMENTAÇÃO CAPILAR")}</p>
               <p>{t("HIPER-REALISTA")}</p>
-              <Link href="/contacto">{t("Sabre mais")}</Link>
+              <Link href="/micropigmentacaocapilar">{t("Sabre mais")}</Link>
             </div>
             <Image
               src={img}
@@ -125,7 +125,7 @@ export default function Home() {
           <p>{t("micropigmentationDescription")}</p>
 
           <div className={styles.link}>
-            <Link href="/contacto">{t("SABER MAIS")}</Link>
+            <Link href="/servicos">{t("SABER MAIS")}</Link>
           </div>
         </div>
         <div className={styles.textComp}>
@@ -143,7 +143,7 @@ export default function Home() {
               />
               <h2>{t("Capilar")}</h2>
               <p>{t("capilarDescription")}</p>
-              <Link href="/contacto">{t("SABER MAIS")}</Link>
+              <Link href="/micropigmentacaocapilar">{t("SABER MAIS")}</Link>
             </div>
             <div className={styles.card}>
               <Image
@@ -154,7 +154,7 @@ export default function Home() {
               />
               <h2>{t("FACIAL")}</h2>
               <p>{t("facialDescription")}</p>
-              <Link href="/contacto">{t("SABER MAIS")}</Link>
+              <Link href="/micropigmentacaofacial">{t("SABER MAIS")}</Link>
             </div>
             <div className={styles.card}>
               <Image
@@ -165,7 +165,9 @@ export default function Home() {
               />
               <h2>{t("PARAMÉDICA AREATA")}</h2>
               <p>{t("paramedicalAreataDescription")}</p>
-              <Link href="/contacto">{t("SABER MAIS")}</Link>
+              <Link href="/micropigmentacaomedicaareata">
+                {t("SABER MAIS")}
+              </Link>
             </div>
             <div className={styles.card}>
               <Image
@@ -176,7 +178,9 @@ export default function Home() {
               />
               <h2>{t("PARAMÉDICA CICATRICIAL")}</h2>
               <p>{t("paramedicalCicatricialDescription")}</p>
-              <Link href="/contacto">{t("SABER MAIS")}</Link>
+              <Link href="/micropigmentacaomedicacicatricial">
+                {t("SABER MAIS")}
+              </Link>
             </div>
           </div>
         </div>
