@@ -21,7 +21,7 @@ export default function Home() {
     "/cont/servicos/Facial/Album/8A64965E-039D-4BC5-B259-0A9323FCCEF4.jpeg",
     "/cont/servicos/Facial/Album/6691DDB2-443B-4E34-A52C-5AF9AE34ED53.jpeg",
     "/cont/servicos/Facial/Album/08031542-3815-47FE-A222-667D44D261F0.jpeg",
-    "/cont/servicos/Facial/Album/IMG_7536.JPG",
+    "/cont/servicos/Facial/Album/IMG_7536.jpg",
   ];
 
   // Effect for cycling through images
@@ -88,7 +88,7 @@ export default function Home() {
               <div>
                 <h3>{t("Antes")}</h3>
                 <Image
-                  src="/cont/servicos/Facial/Antes e Depois/IMG_7536_2.JPG"
+                  src="/cont/servicos/Facial/Antes e Depois/IMG_7536_2.jpg"
                   width={500}
                   height={500}
                   alt={t("FEEDBACK")}
@@ -97,7 +97,7 @@ export default function Home() {
               <div>
                 <h3>{t("Depois")}</h3>
                 <Image
-                  src="/cont/servicos/Facial/Antes e Depois/IMG_7536_1.JPG"
+                  src="/cont/servicos/Facial/Antes e Depois/IMG_7536_1.jpg"
                   width={500}
                   height={500}
                   alt={t("FEEDBACK")}
