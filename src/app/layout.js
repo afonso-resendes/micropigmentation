@@ -8,7 +8,7 @@ import "../components/i18nconfig";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const inter = Inter({ subsets: ["latin"] });
-
+//ss
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
