@@ -23,7 +23,7 @@ export default function Home() {
     "/cont/servicos/Paramedica Areata/Album/00D65B11-8BBA-49D9-8190-4109DBEDB900.jpeg",
     "/cont/servicos/Paramedica Areata/Album/2D92008C-A65C-48C6-8551-624C7D4C20D2.jpeg",
     "/cont/servicos/Paramedica Areata/Album/BEDB23F2-840F-4C42-99C0-AD0FE230632B.jpeg",
-    "/cont/servicos/Paramedica Areata/Album/Foto 2023-04-30 05.48.08 p.ÔÇ»m..jpg",
+    "/cont/servicos/Paramedica Areata/Album/yeye.jpg",
     "/cont/servicos/Paramedica Areata/Album/IMG_7913.jpg",
   ];
 
