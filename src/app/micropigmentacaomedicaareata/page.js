@@ -91,7 +91,7 @@ export default function Home() {
               <div>
                 <h3>{t("Antes")}</h3>
                 <Image
-                  src="/cont/servicos/Paramedica Areata/Antes e depois/A7A64464-9774-4176-AE43-3B79F5592483.jpeg"
+                  src="/cont/servicos/Paramedica Areata/Antesedepois/A7A64464-9774-4176-AE43-3B79F5592483.jpeg"
                   width={500}
                   height={500}
                   alt={t("FEEDBACK")}
@@ -100,7 +100,7 @@ export default function Home() {
               <div>
                 <h3>{t("Depois")}</h3>
                 <Image
-                  src="/cont/servicos/Paramedica Areata/Antes e depois/7314E6B5-DE90-4B98-8AB7-40A40398F559.jpeg"
+                  src="/cont/servicos/Paramedica Areata/Antesedepois/7314E6B5-DE90-4B98-8AB7-40A40398F559.jpeg"
                   width={500}
                   height={500}
                   alt={t("FEEDBACK")}
