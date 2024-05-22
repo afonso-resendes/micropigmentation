@@ -24,7 +24,7 @@ export default function Home() {
     "/cont/servicos/Paramedica Areata/Album/2D92008C-A65C-48C6-8551-624C7D4C20D2.jpeg",
     "/cont/servicos/Paramedica Areata/Album/BEDB23F2-840F-4C42-99C0-AD0FE230632B.jpeg",
     "/cont/servicos/Paramedica Areata/Album/Foto 2023-04-30 05.48.08 p.ÔÇ»m..jpg",
-    "/cont/servicos/Paramedica Areata/Album/IMG_7913.JPG",
+    "/cont/servicos/Paramedica Areata/Album/IMG_7913.jpg",
   ];
 
   // Effect for cycling through images
@@ -150,9 +150,15 @@ export default function Home() {
                   paddingTop: "10px",
                 }}
               >
-                {t("Is_Paramedical_Micropigmentation_Suitable_For_All_Skin_Types")}
+                {t(
+                  "Is_Paramedical_Micropigmentation_Suitable_For_All_Skin_Types"
+                )}
               </h3>
-              <p>{t("Is_Paramedical_Micropigmentation_Suitable_For_All_Skin_Types_Answer")}</p>
+              <p>
+                {t(
+                  "Is_Paramedical_Micropigmentation_Suitable_For_All_Skin_Types_Answer"
+                )}
+              </p>
               <h3
                 style={{
                   color: "rgba(228, 203, 134, 0.7)",
@@ -161,14 +167,18 @@ export default function Home() {
               >
                 {t("Can_A_Natural_Result_Be_Achieved_In_Alopecia_Areas")}
               </h3>
-              <p>{t("Can_A_Natural_Result_Be_Achieved_In_Alopecia_Areas_Answer")}</p>
+              <p>
+                {t("Can_A_Natural_Result_Be_Achieved_In_Alopecia_Areas_Answer")}
+              </p>
               <h3
                 style={{
                   color: "rgba(228, 203, 134, 0.7)",
                   paddingTop: "10px",
                 }}
               >
-                {t("How_Long_Does_The_Result_Of_Paramedical_Micropigmentation_Last")}
+                {t(
+                  "How_Long_Does_The_Result_Of_Paramedical_Micropigmentation_Last"
+                )}
               </h3>
               <p>
                 {t(
