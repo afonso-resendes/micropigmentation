@@ -261,6 +261,7 @@
   flex-direction: column;
   font-family: "Roboto", Sans-serif;
   padding-bottom: 100px;
+  max-width: 1200px;
 }
 
 .dividePart {
@@ -287,7 +288,7 @@
 .partText {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: column;
   height: 100%;
   width: 77%;
@@ -598,6 +599,10 @@
   }
   .partText h2{
     text-align: center;
+    font-size: 18px;
+  }
+  .story{
+    padding-bottom: 14px;
   }
   .divideSliderText {
     flex-direction: column;
@@ -614,9 +619,16 @@
   }
   .textComp {
     text-align: justify;
+    padding-bottom: 0;
+  }
+  .mais{
+    padding: 9px 0px 4px 0px;
   }
   .textComp h2 {
-    font-size: 25px;
+    font-size: 18px;
+  }
+  .threedivText div{
+    padding-top: 15px;
   }
   .textComp h3 {
     font-size: 15px;
@@ -639,8 +651,9 @@
   .threedivText{
     gap: 0px;
   }
-  .threedivText div p {
-    text-align: center;
+  .textFeedback{
+    text-align: justify;
+    padding-top: 35px;
   }
 }
 @media screen and (max-width: 400px) {

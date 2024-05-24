@@ -403,11 +403,16 @@
   .textComp {
     text-align: justify;
   }
+  .story{
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  
   .textComp h2 {
-    font-size: 25px;
+    font-size: 17px;
   }
   .textComp h3 {
-    font-size: 15px;
+    font-size: 11px;
   }
   .faqText h2 {
     font-size: 25px;

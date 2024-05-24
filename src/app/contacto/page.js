@@ -50,8 +50,7 @@ export default function Home() {
             <div>
               <h2>{t("CONTACTS")}</h2>
               <p>
-                {t("PHONE")}: <br /> +351 968 259 600
-                <br /> {t("EMAIL")}:
+                +351 968 259 600
                 <br /> Jmicropigmentation@gmail.com
               </p>
             </div>
@@ -63,23 +62,23 @@ export default function Home() {
         </div>
         <form onSubmit={handleSubmit()} className={styles.form}>
           <label htmlFor="name">
-          {t('YOUR_NAME')}
+            {t("YOUR_NAME")}
             <input
               type="text"
               id="name"
               name="name"
-              placeholder={t('PLACEHOLDER_NAME')}
+              placeholder={t("PLACEHOLDER_NAME")}
               style={{ width: "100%", padding: "10px" }}
               required
             />
           </label>
           <label htmlFor="email" style={{ display: "block", margin: "10px 0" }}>
-          {t('YOUR_EMAIL')}
+            {t("YOUR_EMAIL")}
             <input
               type="email"
               id="email"
               name="email"
-              placeholder={t('PLACEHOLDER_EMAIL')}
+              placeholder={t("PLACEHOLDER_EMAIL")}
               style={{ width: "100%", padding: "10px" }}
               required
             />
@@ -88,11 +87,11 @@ export default function Home() {
             htmlFor="message"
             style={{ display: "block", margin: "10px 0" }}
           >
-            {t('YOUR_MESSAGE')}
+            {t("YOUR_MESSAGE")}
             <textarea
               id="message"
               name="message"
-              placeholder={t('PLACEHOLDER_MESSAGE')}
+              placeholder={t("PLACEHOLDER_MESSAGE")}
               style={{ width: "100%", height: "150px", padding: "10px" }}
               required
             ></textarea>
@@ -101,7 +100,7 @@ export default function Home() {
             type="submit"
             style={{ padding: "10px 20px", margin: "10px 0" }}
           >
-            {t('SEND')}
+            {t("SEND")}
           </button>
         </form>
         <div className={styles.gallery}>
@@ -144,7 +143,6 @@ export default function Home() {
           />
         )}
       </div>
-      
     </main>
   );
 }

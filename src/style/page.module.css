@@ -36,7 +36,7 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
-  object-position: 0px -150px;
+  object-position: 0px -100px;
 }
 
 .banner {
@@ -133,9 +133,9 @@
   cursor: col-resize;
 }
 .slider1 .dragline1 {
-  width: 3px;
+  width: 1px;
   height: 100%;
-  border: 2px solid white;
+  border: 1px solid white;
   position: absolute;
   left: 49.85%;
   pointer-events: none;
@@ -275,7 +275,7 @@
   text-align: center;
 }
 .cards .card p {
-  height: 260px;
+  height: 215px;
 }
 .cards .card a {
   font-family: "Roboto", Sans-serif;
@@ -294,7 +294,7 @@
   justify-content: center;
   text-align: justify;
   padding-top: 50px;
-  padding-bottom: 138px;
+  padding-bottom: 18px;
   gap: 20px;
 }
 .divideWin .images {
@@ -461,12 +461,12 @@
   font-weight: 300;
   line-height: 1.8em;
   width: 100%;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 1270px) {
-  .active img,
-.slide img {
-  object-position: center;
-}
+  .cards .card p{
+    height: 260px;
+  }
   .wrapper1 {
     max-width: 1000px;
   }
@@ -495,8 +495,19 @@
   .divideFaq1 img {
     width: 100%;
   }
+  .active img,
+  .slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: 0px -50px;
+  }
 }
 @media screen and (max-width: 1000px) {
+  .active img,
+  .slide img {
+    object-position: center;
+  }
   .wrapper1 {
     max-width: 800px;
   }
@@ -548,7 +559,7 @@
   .divideFaq1 {
     padding: 50px 50px;
   }
-  .faqText h2{
+  .faqText h2 {
     font-size: 25px;
   }
 }
@@ -567,8 +578,21 @@
   .texts {
     padding: 50px 30px;
   }
+  .ourSpace h2{
+    font-size: 27px;
+  }
+
+  .textComp p {
+    padding: 0px;
+  }
   .textComp {
     text-align: justify;
+    padding-bottom: 0;
+    padding-bottom: 40px;
+  }
+  .cards .card h2 {
+    height: auto;
+    padding: 0;
   }
   .textComp h2 {
     font-size: 27px;
@@ -594,7 +618,7 @@
     background-position-x: -150px;
   }
   .banner {
-    font-size: 27px;
+    font-size: 20px;
   }
   .divideFaq {
     padding: 50px 30px;

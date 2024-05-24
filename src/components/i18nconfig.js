@@ -41,7 +41,7 @@ i18n.use(initReactI18next).init({
           "JMicropigmentation is a hyper-realistic scalp micropigmentation clinic that offers a differentiated internal experience. The team is composed of highly skilled and trained professionals, who work in an integrated manner to ensure a quality and excellence service",
         CONTACT_US: "CONTACT US",
         MY_EXPERIENCE_SPEAKS:
-          "MY EXPERIENCE SPEAKS FOR ME. DON'T BE AFRAID TO CONTACT US, AND I WILL PERSONALLY RESPOND",
+          "MY EXPERIENCE SPEAKS FOR ME. DON'T BE AFRAID TO CONTACT US, I WILL PERSONALLY RESPOND",
         dreamStart: "EVERYTHING STARTS WITH A DREAM",
         clinicDesc: "HYPER-REALISTIC MICROPIGMENTATION CLINIC",
         myStory: "MY STORY",
@@ -175,7 +175,7 @@ i18n.use(initReactI18next).init({
           "A JMicropigmentation é uma clínica de micropigmentação capilar hiper-realista que oferece uma experiência interna diferenciada. A equipe é composta por profissionais altamente capacitados e treinados, que trabalham de forma integrada para garantir um serviço de qualidade e excelência.",
         CONTACT_US: "CONTACTE-NOS",
         MY_EXPERIENCE_SPEAKS:
-          "A MINHA EXPERIÊNCIA FALA POR MIM. NÃO TENHA MEDO DE NOS CONTACTAR, E EU RESPONDEREI PESSOALMENTE",
+          "A MINHA EXPERIÊNCIA FALA POR MIM. NÃO TENHA MEDO DE NOS CONTACTAR, EU RESPONDEREI PESSOALMENTE",
         dreamStart: "TUDO COMEÇA COM UM SONHO",
         clinicDesc: "CLÍNICA DE MICROPIGMENTAÇÃO HIPER-REALISTA",
         myStory: "A MINHA HISTÓRIA",
@@ -187,7 +187,7 @@ i18n.use(initReactI18next).init({
         "Sabre mais": "Saiba mais",
         "O QUE É": "O QUE É",
         'MICROPIGMENTAÇÃO CAPILAR HIPER-REALISTA "GRANULADA"':
-          "MICROPIGMENTAÇÃO CAPILAR HIPER-REALISTA 'GRANULADA'",
+          "MICROPIGMENTAÇÃO CAPILAR HIPER-REALISTA GRANULADA",
         micropigmentationDescription:
           "A micropigmentação capilar hiper-realista é um procedimento estético que utiliza técnicas diferenciadas de tatuagem para simular a aparência de cabelos na área do couro cabeludo com um efeito tridimensional único; criado e desenvolvido por nós. A técnica é realizada através da aplicação de pigmentos na pele, em um processo que pode levar de uma a três sessões, dependendo do caso e do objetivo do paciente.",
         "OS NOSSOS SERVIÇOS": "OS NOSSOS SERVIÇOS",
@@ -350,7 +350,7 @@ i18n.use(initReactI18next).init({
         "Sabre mais": "Saber más",
         "O QUE É": "QUÉ ES",
         'MICROPIGMENTAÇÃO CAPILAR HIPER-REALISTA "GRANULADA"':
-          "MICROPIGMENTACIÓN CAPILAR HIPER-REALISTA 'GRANULADA'",
+          "MICROPIGMENTACIÓN CAPILAR HIPER-REALISTA GRANULADA",
         micropigmentationDescription:
           "La micropigmentación capilar hiper-realista es un procedimiento estético que utiliza técnicas de tatuaje diferenciadas para simular la apariencia del cabello en el área del cuero cabelludo con un efecto tridimensional único; creado y desarrollado por nosotros. La técnica se lleva a cabo mediante la aplicación de pigmentos en la piel, en un proceso que puede llevar de una a tres sesiones, dependiendo del caso y del objetivo del paciente.",
         "OS NOSSOS SERVIÇOS": "NUESTROS SERVICIOS",

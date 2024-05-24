@@ -212,7 +212,7 @@ export default function Home() {
               <h2>Jorge</h2>
               <p>"{t("MY_EXPERIENCE_SPEAKS")}"</p>
               <Link href="/contato" className={styles.mais}>
-                {t("LEARN MORE")}
+                {t("Sabre mais")}
               </Link>
             </div>
           </div>

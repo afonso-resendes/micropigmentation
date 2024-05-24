@@ -113,14 +113,16 @@
     text-align: center;
   }
   .form{
-    width: 70%;
+    width: 78%;
   }
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 @media screen and (max-width: 800px) {
-
+  .divide h2{
+    padding-bottom: 10px;
+  }
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
