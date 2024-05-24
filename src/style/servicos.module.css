@@ -582,26 +582,26 @@
   .divideFaq {
     padding: 0px 50px;
   }
-  .partText{
+  .partText {
     align-items: center;
   }
-  .partText h2{
+  .partText h2 {
     text-align: center;
   }
 }
 @media screen and (max-width: 600px) {
-  .divideJorge{
+  .divideJorge {
     gap: 20px;
     padding: 20px;
   }
-  .divideJorge img{
+  .divideJorge img {
     padding: 0;
   }
-  .partText h2{
+  .partText h2 {
     text-align: center;
     font-size: 18px;
   }
-  .story{
+  .story {
     padding-bottom: 14px;
   }
   .divideSliderText {
@@ -621,13 +621,13 @@
     text-align: justify;
     padding-bottom: 0;
   }
-  .mais{
+  .mais {
     padding: 9px 0px 4px 0px;
   }
   .textComp h2 {
     font-size: 18px;
   }
-  .threedivText div{
+  .threedivText div {
     padding-top: 15px;
   }
   .textComp h3 {
@@ -639,19 +639,19 @@
   .divideFaq {
     padding: 0px 25px;
   }
-  .jorge{
+  .jorge {
     padding: 50px;
   }
-  .partTextJorge{
+  .partTextJorge {
     align-items: center;
   }
-  .partTextJorge p{
+  .partTextJorge p {
     text-align: center;
   }
-  .threedivText{
+  .threedivText {
     gap: 0px;
   }
-  .textFeedback{
+  .textFeedback {
     text-align: justify;
     padding-top: 35px;
   }
@@ -663,8 +663,7 @@
   .divideFaq {
     padding: 0px 30px;
   }
-  .jorge{
+  .jorge {
     padding: 30px;
   }
-
 }
