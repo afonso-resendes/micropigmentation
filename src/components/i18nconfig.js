@@ -110,7 +110,7 @@ i18n.use(initReactI18next).init({
         SEE_EXAMPLES: "See examples",
         Feedback_capilar:
           "Hundreds of people have already tried our services. Our innovative method allows for noticeable improvement after the first session. We are a national reference in Portugal, marking our presence from North to South and have been internationally recognized. Here we present you with some examples of customers 100% happy with the final result.",
-        OTHER_EXAMPLES: "Other examples",
+        OTHER_EXAMPLES: "OTHER EXAMPLES",
         Is_Scalp_Micropigmentation_Painful:
           "Is scalp micropigmentation painful?",
         Is_Scalp_Micropigmentation_Painful_Answer:
@@ -238,7 +238,7 @@ i18n.use(initReactI18next).init({
         SEE_EXAMPLES: "Ver exemplos",
         Feedback_capilar:
           "São centenas as pessoas que já experimentaram os nossos serviços. O nosso método inovador permite um melhoramento notório após a primeira sessão. Somos referência nacional em Portugal, estamos a marcar presença do Norte a Sul e temos sido reconhecidos internacionalmente. Aqui apresentamos-lhe alguns exemplos de clientes 100% felizes com o resultado final ",
-        OTHER_EXAMPLES: "Outros exemplos",
+        OTHER_EXAMPLES: "OUTROS EXEMPLOS",
         Is_Scalp_Micropigmentation_Painful:
           "A micropigmentação capilar é dolorosa?",
         Is_Scalp_Micropigmentation_Painful_Answer:
@@ -400,7 +400,7 @@ i18n.use(initReactI18next).init({
         SEE_EXAMPLES: "Ver ejemplos",
         Feedback_capilar:
           "Cientos de personas ya han probado nuestros servicios. Nuestro método innovador permite una mejora notable después de la primera sesión. Somos una referencia nacional en Portugal, marcando presencia de norte a sur y hemos sido reconocidos internacionalmente. Aquí te presentamos algunos ejemplos de clientes 100% felices con el resultado final.",
-        OTHER_EXAMPLES: "Otros ejemplos",
+        OTHER_EXAMPLES: "OTROS EJEMPLOS",
         Is_Scalp_Micropigmentation_Painful:
           "¿Es dolorosa la micropigmentación capilar?",
         Is_Scalp_Micropigmentation_Painful_Answer:

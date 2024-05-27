@@ -19,9 +19,9 @@
 .info {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
-  gap: 350px;
-  padding: 100px;
+  justify-content: space-between;
+  padding: 100px 0px;
+  width: 100%;
   max-width: 1200px;
 }
 
@@ -77,6 +77,9 @@
   .info .menu {
     align-items: center;
     font-size: 14px;
+  }
+  .info .menu h3 {
+    text-align: center;
   }
   .info .menu a {
     text-align: center;
