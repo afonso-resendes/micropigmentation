@@ -81,7 +81,7 @@ export default function Navbar({ router }) {
             <div>
               <Image
                 className={styles.logo}
-                src="/Grafica_Alternativa_b-removebg.png"
+                src="/logosmall.png"
                 width={500}
                 height={500}
                 alt="Logo"
