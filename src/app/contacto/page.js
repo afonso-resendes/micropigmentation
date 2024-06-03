@@ -9,10 +9,43 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   const { t, i18n } = useTranslation();
 
-  const handleSubmit = (event) => {
-    // Here you can add what happens when the form is submitted,
-    // e.g., sending the data to a server or displaying a message to the user.
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
   };
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const formDataParams = new URLSearchParams(formData);
+
+    try {
+      const url = `https://step-server-tqom.onrender.com/jm?${formDataParams.toString()}`;
+
+      const response = await fetch(url, {
+        method: "GET",
+      });
+
+      if (!response.ok) {
+        throw new Error(`Invalid response: ${response.status}`);
+      }
+
+      alert("Thanks for contacting us, we will get back to you soon!");
+    } catch (err) {
+      console.error(err);
+      alert("We can't submit the form, try again later?");
+    }
+  }
   const [index, setIndex] = useState(0);
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -60,7 +93,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <form onSubmit={handleSubmit()} className={styles.form}>
+        <form onSubmit={handleSubmit} className={styles.form}>
           <label htmlFor="name">
             {t("YOUR_NAME")}
             <input
@@ -68,6 +101,8 @@ export default function Home() {
               id="name"
               name="name"
               placeholder={t("PLACEHOLDER_NAME")}
+              value={formData.name}
+              onChange={handleInputChange}
               style={{ width: "100%", padding: "10px" }}
               required
             />
@@ -79,6 +114,8 @@ export default function Home() {
               id="email"
               name="email"
               placeholder={t("PLACEHOLDER_EMAIL")}
+              value={formData.email}
+              onChange={handleInputChange}
               style={{ width: "100%", padding: "10px" }}
               required
             />
@@ -92,6 +129,8 @@ export default function Home() {
               id="message"
               name="message"
               placeholder={t("PLACEHOLDER_MESSAGE")}
+              value={formData.message}
+              onChange={handleInputChange}
               style={{ width: "100%", height: "150px", padding: "10px" }}
               required
             ></textarea>
