@@ -15,7 +15,7 @@ export default function Footer({ router }) {
       <div className={styles.footer}>
         <div className={styles.reclambook}>
           <a href="https://www.livroreclamacoes.pt/Inicio/">
-            <p>Livro de reclamações</p>
+            <p>{t("reclamacoes")}</p>
           </a>
           <a
             href="https://www.instagram.com/jmicropigmentation/"

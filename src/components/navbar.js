@@ -130,12 +130,19 @@ export default function Navbar({ router }) {
         }
       >
         {windowSize.width <= 900 ? null : (
-          <Image
-            src="/Grafica_Alternativa_b-removebg.png"
-            alt="Logo"
-            width={1080}
-            height={1920}
-          />
+          <Link
+            href="/"
+            style={{
+              padding:0
+            }}
+          ><Image
+              src="/Grafica_Alternativa_b-removebg.png"
+              alt="Logo"
+              width={1080}
+              height={1920}
+            />
+          </Link>
+
         )}
         <div
           className={styles.navbarcontainer}

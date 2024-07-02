@@ -77,6 +77,7 @@ i18n.use(initReactI18next).init({
           'Technique of applying pigments on the skin to camouflage scars caused by surgeries (hair transplant with the "FUT" or "FUE" technique), accidents, or other injuries, offering a more lasting and natural result.',
 
         // Feedback
+        Feedback_facial: "Patchy eyebrows, undefined lips, and expressionless eyes can affect anyone's self-esteem and confidence. That's why we offer facial micropigmentation, a technique that involves applying pigments to the skin to correct imperfections and enhance each individual's natural beauty. With over 8 years of experience and a highly qualified team, JMicropigmentation provides long-lasting and natural results throughout the country, from the North to the South of Portugal and the Islands.",
         Antes: "BEFORE",
         Depois: "AFTER",
         FEEDBACK: "FEEDBACK",
@@ -135,10 +136,16 @@ i18n.use(initReactI18next).init({
           "Is it possible to choose the color and shape of the eyebrows and lips?",
         Can_You_Choose_The_Color_And_Shape_Of_Eyebrows_And_Lips_Answer:
           "Yes, it is possible to customize the color and shape of the eyebrows and lips to achieve a natural and personalized result.",
+        Feedback_areata: "JMicropigmentation also offers paramedical micropigmentation services to correct and smooth out hair loss caused by dermatological conditions. Our team of specialists uses advanced techniques and high-quality pigments to ensure long-lasting and natural results. We serve clients from all over the world and all regions of Portugal, offering a personalized and high-quality service.",
+        Rodolfo_feedback: "“NEW LIFE….! I came across jmicropigmentation's work through social media and was impressed; I finally knew that my problem had a solution and didn't take long to decide… I did scalp micropigmentation on my entire head and couldn't be more satisfied with the result. My self-esteem skyrocketed and I am immensely grateful to Jorge; the CR7 of micropigmentation in Portugal”",
+        vitorFeedback: "“I can't be more grateful to Jorge for his effort and dedication in restoring my scar. I hope my case can give hope to other people disappointed by negative experiences... I believed in his art from the beginning and I am very happy to have made this decision” ",
+        Feedback_cicatricial: "Surgery, accident, or other injury scars can deeply affect people's self-esteem and quality of life. That's why JMicropigmentation offers the scar micropigmentation technique, which involves applying pigments to the skin to camouflage scars and improve the overall appearance of the skin. With more than 8 years of experience and a highly qualified team, we serve clients from all over the world and from all regions of Portugal, offering long-lasting and natural results. At JMicropigmentation, we strive to provide a personalized and high-quality service to each client.",
+        reclamacoes: "Complaints Book",
       },
     },
     pt: {
       translation: {
+        reclamacoes:"Livro de reclamações",
         "Quem Somos": "Quem Somos",
         Serviços: "Serviços",
         Feedback: "Feedback",
@@ -303,6 +310,17 @@ i18n.use(initReactI18next).init({
     },
     es: {
       translation: {
+        reclamacoes: "Libro de reclamaciones",
+
+        Feedback_cicatricial: "Las cicatrices de cirugías, accidentes u otras lesiones pueden afectar profundamente la autoestima y la calidad de vida de las personas. Por eso JMicropigmentation ofrece la técnica de micropigmentación cicatricial, que consiste en la aplicación de pigmentos en la piel para camuflar cicatrices y mejorar la apariencia general de la piel. Con más de 8 años de experiencia y un equipo altamente calificado, atendemos a clientes de todo el mundo y de todas las regiones de Portugal, ofreciendo resultados duraderos y naturales. En JMicropigmentation, nos esforzamos por brindar un servicio personalizado y de alta calidad a cada cliente.",
+        vitorFeedback: "“No puedo estar más agradecido con Jorge por su esfuerzo y dedicación en restaurar mi cicatriz. Espero que mi caso pueda dar esperanza a otras personas decepcionadas por experiencias negativas... Creí en su arte desde el principio y estoy muy feliz de haber tomado esta decisión” ",
+
+        Rodolfo_feedback: "“NUEVA VIDA….! Conocí el trabajo de jmicropigmentation a través de las redes sociales y quedé impresionado; finalmente supe que mi problema tenía solución y no tardé mucho en decidirme… Me hice la micropigmentación capilar en toda la cabeza y no podría estar más satisfecho con el resultado. Mi autoestima se disparó y estoy inmensamente agradecido a Jorge; el CR7 de la micropigmentación en Portugal”",
+
+        Feedback_areata: "JMicropigmentation también ofrece servicios de micropigmentación paramédica para corregir y suavizar la pérdida de cabello causada por condiciones dermatológicas. Nuestro equipo de especialistas utiliza técnicas avanzadas y pigmentos de alta calidad para garantizar resultados duraderos y naturales. Atendemos a clientes de todo el mundo y de todas las regiones de Portugal, ofreciendo un servicio personalizado y de alta calidad.",
+
+        storyText: "Mi historia comenzó con la idea de ayudar a las personas que sufren de cualquier tipo de calvicie. Para ello, dediqué varios años al estudio de diversas técnicas en varios países del mundo, con el fin de crear una metodología única y personal especializada en corregir y solucionar el problema de la alopecia con el mayor nivel de realismo; lo que definí como: 'TÉCNICA GRANULADA' por JMicropigmentation. Con más de 8 años de experiencia siendo pionero de esta técnica, y con un gran número de clientes satisfechos, logré realizar otro sueño: abrir mi propia clínica de micropigmentación en Lisboa. Desde la apertura, hemos atendido a más de 200 clientes de diversas nacionalidades y viajamos varias veces al mes a diferentes ciudades de Portugal con el objetivo de atender a clientes en otras regiones.",
+
         "Quem Somos": "Quiénes Somos",
         Serviços: "Servicios",
         Feedback: "Retroalimentación",
@@ -343,7 +361,7 @@ i18n.use(initReactI18next).init({
         dreamStart: "TODO COMIENZA CON UN SUEÑO",
         clinicDesc: "CLÍNICA DE MICROPIGMENTACIÓN HIPER-REALISTA",
         myStory:
-          "Mi historia comenzó con la idea de ayudar a las personas que sufren de cualquier tipo de calvicie. Para ello, dediqué varios años al estudio de diversas técnicas en varios países del mundo, con el fin de crear una metodología única y personal especializada en corregir y solucionar el problema de la alopecia con el mayor nivel de realismo; lo que definí como: 'TÉCNICA GRANULADA' por JMicropigmentation. Con más de 8 años de experiencia siendo pionero de esta técnica, y con un gran número de clientes satisfechos, logré realizar otro sueño: abrir mi propia clínica de micropigmentación en Lisboa. Desde la apertura, hemos atendido a más de 200 clientes de diversas nacionalidades y viajamos varias veces al mes a diferentes ciudades de Portugal con el objetivo de atender a clientes en otras regiones.",
+          "MI HISTORIA",
         followUs: "SIGUE NUESTRO TRABAJO EN LAS REDES SOCIALES",
         "MICROPIGMENTAÇÃO CAPILAR": "MICROPIGMENTACIÓN CAPILAR",
         "HIPER-REALISTA": "HIPER-REALISTA",
@@ -372,6 +390,7 @@ i18n.use(initReactI18next).init({
         Depois: "DESPUÉS",
         FEEDBACK: "RETROALIMENTACIÓN",
         "GIL GONÇALVES": "GIL GONÇALVES",
+        Feedback_facial: "Las cejas despobladas, los labios sin definición y los ojos sin expresión pueden afectar la autoestima y la confianza de cualquier persona. Por eso ofrecemos la técnica de micropigmentación facial, que consiste en la aplicación de pigmentos en la piel para corregir imperfecciones y realzar la belleza natural de cada individuo. Con más de 8 años de experiencia y un equipo altamente calificado, JMicropigmentation ofrece resultados duraderos y naturales en todo el país, desde el norte hasta el sur de Portugal y las islas.",
         gilFeedback:
           "“Mirarse al espejo y gustarse lo que vemos no tiene precio, sino mucho valor. Gracias a jmicropigmentation por la maravillosa obra de arte, por ser parte de mi cambio y por ofrecer un servicio de excelencia;... Ahora mi confianza y autoestima están completamente recuperadas”",
         "O NOSSO ESPAÇO": "NUESTRO ESPACIO",
