@@ -27,13 +27,19 @@ export default function Home() {
   async function handleSubmit(e) {
     e.preventDefault();
 
-    const formDataParams = new URLSearchParams(formData);
+    const formData = {
+      name: e.target.name.value,
+      email: e.target.email.value,
+      message: e.target.message.value,
+    };
 
     try {
-      const url = `https://step-server-tqom.onrender.com/jm?${formDataParams.toString()}`;
-
-      const response = await fetch(url, {
-        method: "GET",
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
 
       if (!response.ok) {
@@ -41,11 +47,17 @@ export default function Home() {
       }
 
       alert("Thanks for contacting us, we will get back to you soon!");
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
     } catch (err) {
       console.error(err);
       alert("We can't submit the form, try again later?");
     }
   }
+
   const [index, setIndex] = useState(0);
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
