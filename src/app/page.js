@@ -80,7 +80,7 @@ export default function Home() {
             <div className={styles.banner}>
               <p>{t("MICROPIGMENTAÇÃO CAPILAR")}</p>
               <p>{t("HIPER-REALISTA")}</p>
-              <Link href="/micropigmentacaocapilar">{t("Sabre mais")}</Link>
+              <Link href="/micropigmentacaocapilar">{t("Saber mais")}</Link>
             </div>
             <Image
               src={img}

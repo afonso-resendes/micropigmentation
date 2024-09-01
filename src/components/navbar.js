@@ -133,16 +133,16 @@ export default function Navbar({ router }) {
           <Link
             href="/"
             style={{
-              padding:0
+              padding: 0,
             }}
-          ><Image
+          >
+            <Image
               src="/Grafica_Alternativa_b-removebg.png"
               alt="Logo"
               width={1080}
               height={1920}
             />
           </Link>
-
         )}
         <div
           className={styles.navbarcontainer}
@@ -167,6 +167,8 @@ export default function Navbar({ router }) {
           >
             {t("Contato")}
           </Link>
+          <Link href="/media">Media</Link>
+
           <div className={styles.dropdown} ref={dropdownRef}>
             <button
               className={styles.dropbtn}
