@@ -74,12 +74,6 @@ export default function Home() {
             nova realidade para ele.
             <br />
             <br />
-            Sentindo-se extremamente feliz e satisfeito, Nicolau viu a sua
-            autoestima ser totalmente renovada. Agora, com uma confiança e
-            segurança que nunca teve antes, ele enfrenta o mundo sem complexos.
-            Esta transformação não só melhorou a sua aparência, mas também
-            trouxe uma profunda mudança no seu espírito, devolvendo-lhe a
-            felicidade para viver livre e pleno com um sorriso renovado.
           </p>
         </div>
         <div className={styles.espacoFinal}></div>

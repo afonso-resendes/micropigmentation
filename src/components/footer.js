@@ -42,6 +42,7 @@ export default function Footer({ router }) {
             </Link>
             <Link href="/quemsomos">{t("Quem Somos")}</Link>
             <Link href="/servicos">{t("Serviços")}</Link>
+            <Link href="/media">Media</Link>
           </div>
           <div className={styles.contacts}>
             <h4>Email</h4>

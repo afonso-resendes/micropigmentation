@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  min-height: 150vh;
+  min-height: 100vh;
   padding: 20px;
   /* background-image: url("/pedraback.jpg");
   background-repeat: no-repeat;
@@ -42,8 +42,10 @@
   margin-top: 15px;
   font-size: 17px;
   font-weight: 300;
+  line-height: 1.8em;
   color: #fff;
   font-family: "Roboto";
+  text-align: center;
 }
 
 .description strong {
@@ -51,6 +53,12 @@
   color: rgb(164, 157, 143);
   font-weight: 700;
   margin-bottom: 25px;
+}
+
+@media only screen and (max-height: 1000px) {
+  .mainContainer {
+    min-height: 130vh;
+  }
 }
 
 @media only screen and (max-width: 1400px) {
@@ -84,17 +92,17 @@
 @media only screen and (max-width: 800px) {
   .videoItem {
     height: 550px;
-    margin-bottom: 225px;
+    margin-bottom: 275px;
   }
 
   .espacoFinal {
-    margin-bottom: 90px;
+    margin-bottom: 10px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .videoItem {
-    margin-bottom: 275px;
+    margin-bottom: 325px;
   }
 
   .espacoFinal {
@@ -103,7 +111,11 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .videoItem {
+    margin-bottom: 415px;
+  }
+
   .espacoFinal {
-    margin-bottom: 255px;
+    margin-bottom: 55px;
   }
 }
