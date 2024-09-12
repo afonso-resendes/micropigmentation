@@ -1,121 +1,89 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
 
 .mainContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  min-height: 100vh;
-  padding: 20px;
-  /* background-image: url("/pedraback.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-  /* background-color: #111; */
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.52) 0%,
-    rgba(0, 0, 0, 0.686) 80%,
-    rgb(0, 0, 0) 100%
-  );
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
-.videoContainer {
+.mainContainer header {
   display: flex;
+  align-items: flex-start;
+  gap: 25px;
   justify-content: center;
-  gap: 20px;
-  width: 100%;
-  flex-wrap: wrap; /* Permite que os vídeos quebrem linha se a tela for pequena */
 }
 
-.videoItem {
-  width: 25%;
+.containerVideo {
+  width: 25vw;
   height: 32vw;
-  box-sizing: border-box;
+  background-color: #333;
 }
 
-.videoPlayer {
+.containerVideo video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.description {
-  margin-top: 15px;
+.textsContainer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: "Roboto";
+  text-align: center;
+  width: 25vw;
+}
+
+.textsContainer b {
+  font-size: 23px;
+  color: rgb(164, 157, 143);
+  font-weight: 700;
+  margin-top: 25px;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+.textsContainer p {
   font-size: 17px;
   font-weight: 300;
   line-height: 1.8em;
   color: #fff;
+  margin-top: 15px;
   font-family: "Roboto";
-  text-align: center;
 }
 
-.description strong {
-  font-size: 23px;
-  color: rgb(164, 157, 143);
-  font-weight: 700;
-  margin-bottom: 25px;
-}
-
-@media only screen and (max-height: 1000px) {
-  .mainContainer {
-    min-height: 130vh;
-  }
-}
-
-@media only screen and (max-width: 1400px) {
-  .videoContainer {
-    display: flex;
+@media only screen and (max-width: 1300px) {
+  .mainContainer header {
     justify-content: space-between;
-    gap: 20px;
-    width: 100%;
-    flex-wrap: wrap; /* Permite que os vídeos quebrem linha se a tela for pequena */
+    gap: 0;
+    margin: 25px;
   }
 
-  .videoItem {
-    width: 32%;
-    box-sizing: border-box;
+  .containerVideo {
+    width: 30vw;
+    height: 38.4vw;
+  }
+
+  .textsContainer {
+    width: 30vw;
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  .videoContainer {
+@media only screen and (max-width: 900px) {
+  .mainContainer {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .mainContainer header {
     flex-direction: column;
+    gap: 35px;
   }
 
-  .videoItem {
+  .containerVideo {
     width: 100%;
-    height: 450px;
-    margin-top: 55px;
-    margin-bottom: 325px;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .videoItem {
-    height: 550px;
-    margin-bottom: 275px;
+    height: 58.4vw;
   }
 
-  .espacoFinal {
-    margin-bottom: 10px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .videoItem {
-    margin-bottom: 325px;
-  }
-
-  .espacoFinal {
-    margin-bottom: 150px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .videoItem {
-    margin-bottom: 415px;
-  }
-
-  .espacoFinal {
-    margin-bottom: 55px;
+  .textsContainer {
+    width: 100%;
   }
 }

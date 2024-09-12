@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap");
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  /* background-image: url("/pedraback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* background-color: #111; */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.52) 0%,
+    rgba(0, 0, 0, 0.686) 80%,
+    rgb(0, 0, 0) 100%
+  );
+}
+
+.videoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap; /* Permite que os vídeos quebrem linha se a tela for pequena */
+}
+
+.videoItem {
+  width: 25%;
+  height: 32vw;
+  box-sizing: border-box;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textMain {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.textMain.collapsed {
+  height: 350px; /* Defina a altura desejada para o texto colapsado */
+}
+
+.textMain.expanded {
+  height: auto;
+}
+
+.readMore {
+  display: none;
+  cursor: pointer;
+  color: rgb(164, 157, 143);
+  font-family: "Roboto";
+  text-decoration: underline;
+}
+
+.description {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: #fff;
+  margin-top: 15px;
+  font-family: "Roboto";
+}
+
+.title {
+  font-size: 23px;
+  color: rgb(164, 157, 143);
+  font-weight: 700;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: "Roboto";
+}
+
+@media only screen and (max-height: 1000px) {
+  .mainContainer {
+    min-height: 130vh;
+  }
+
+  .readMore {
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .videoContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap; /* Permite que os vídeos quebrem linha se a tela for pequena */
+  }
+
+  .videoItem {
+    width: 32%;
+    box-sizing: border-box;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .videoContainer {
+    flex-direction: column;
+  }
+
+  .videoItem {
+    width: 100%;
+    height: 450px;
+    margin-top: 55px;
+    margin-bottom: 325px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .videoItem {
+    height: 550px;
+    margin-bottom: 275px;
+  }
+
+  .espacoFinal {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .videoItem {
+    margin-bottom: 325px;
+  }
+
+  .espacoFinal {
+    margin-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .videoItem {
+    margin-bottom: 415px;
+  }
+
+  .espacoFinal {
+    margin-bottom: 55px;
+  }
+}
