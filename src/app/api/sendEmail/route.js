@@ -59,7 +59,6 @@ const sendEmail = async (name, email, message) => {
     const mailOptions = {
       from: process.env.SMTP_USER,
       to: "jmicropigmentation@gmail.com",
-
       subject: "Recebeu uma mensagem do site",
       html: messageToRecipient,
     };
