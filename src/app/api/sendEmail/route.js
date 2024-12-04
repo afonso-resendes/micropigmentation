@@ -19,12 +19,12 @@ export async function POST(req) {
 }
 
 const transporter = nodemailer.createTransport({
-  host: "smtpout.secureserver.net",
-  port: 465,
-  secure: true,
+  host: process.env.SMTP_HOST,
+  port: process.env.SMTP_PORT,
+  secure: true, // Use SSL
   auth: {
-    user: "step@yrbstep.com",
-    pass: "TeuPaiinjoa27",
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
   },
 });
 
@@ -57,8 +57,9 @@ const sendEmail = async (name, email, message) => {
     `;
 
     const mailOptions = {
-      from: "step@yrbstep.com",
-      to: "jmicropigmentation@gmail.com",
+      from: process.env.SMTP_USER,
+      //to: "jmicropigmentation@gmail.com",
+      to: "geral@meetstep.com",
       subject: "Recebeu uma mensagem do site",
       html: messageToRecipient,
     };
