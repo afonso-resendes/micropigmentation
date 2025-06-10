@@ -136,7 +136,7 @@ export default function Navbar({ router }) {
               padding: 0,
             }}
           >
-            <Image src="/bigLogo.webp" alt="Logo" width={1080} height={500} />
+            <Image src="/a.png" alt="Logo" width={1080} height={1920} />
           </Link>
         )}
         <div
