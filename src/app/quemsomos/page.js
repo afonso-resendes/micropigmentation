@@ -134,7 +134,7 @@ export default function Home() {
                 transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
               }}
             >
-              <img src="/mobile.png" alt="Descriptive Alt Text" />
+              <img src="/mobile3.png" alt="Descriptive Alt Text" />
             </div>
           </a>
         </div>

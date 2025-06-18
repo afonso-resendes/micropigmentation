@@ -29,9 +29,9 @@ i18n.use(initReactI18next).init({
           "Scar micropigmentation is a technique for applying pigments to the skin, aiming to camouflage scars caused by surgeries, accidents, or other injuries. The technique involves applying pigment to the scar area to create a more uniform and natural appearance. The result can last from 4 to 8 years on average, with periodic touch-up sessions. The technique can be used on various body areas, such as the face, scalp, breasts, among others.",
         KNOW_OUR_HISTORY: "KNOW OUR HISTORY",
         WHY_CHOOSE_US: "WHY CHOOSE US?",
-        YEARS_OF_EXPERIENCE: "MORE THAN 8 YEARS OF EXPERIENCE",
+        YEARS_OF_EXPERIENCE: "MORE THAN 10 YEARS OF EXPERIENCE",
         YEARS_OF_EXPERIENCE_DESC:
-          "With more than 8 years of experience in the market of hyper-realistic scalp micropigmentation, JMicropigmentation offers its clients a quality and excellence service.",
+          "With more than 10 years of experience in the market of hyper-realistic scalp micropigmentation, JMicropigmentation offers its clients a quality and excellence service.",
         NATIONWIDE_SERVICE: "NATIONWIDE SERVICE",
         NATIONWIDE_SERVICE_DESC:
           "JMicropigmentation serves clients throughout the Portuguese territory, from north to south and islands, offering a high-quality service and convenience",
@@ -47,7 +47,7 @@ i18n.use(initReactI18next).init({
         myStory: "MY STORY",
         storyText: `It started with an idea to help people suffering from any type of baldness. For this, I dedicated several years to studying various techniques in several countries around the world, in order to create a unique and personal methodology specialized in correcting and solving the problem of alopecia with the highest level of realism; which I defined as: "GRANULATED TECHNIQUE" by jmicropigmentation.
           
-          With more than 8 years of experience being a pioneer of this technique, and with a vast number of satisfied clients, I managed to realize another dream: to open my own micropigmentation clinic in Lisbon! Since the opening, we have served more than 200 clients of various nationalities and travel several times a month to various cities in Portugal with the aim of serving clients in other regions.`,
+          With more than 10 years of experience being a pioneer of this technique, and with a vast number of satisfied clients, I managed to realize another dream: to open my own micropigmentation clinic in Lisbon! Since the opening, we have served thousands of clients of various nationalities and travel several times a month to various cities in Portugal with the aim of serving clients in other regions.`,
         followUs: "FOLLOW OUR WORK ON SOCIAL NETWORKS",
         "MICROPIGMENTAÇÃO CAPILAR": "CAPILLARY MICROPIGMENTATION",
         "HIPER-REALISTA": "HYPER-REALISTIC",
@@ -139,7 +139,7 @@ i18n.use(initReactI18next).init({
         Feedback_areata: "JMicropigmentation also offers paramedical micropigmentation services to correct and smooth out hair loss caused by dermatological conditions. Our team of specialists uses advanced techniques and high-quality pigments to ensure long-lasting and natural results. We serve clients from all over the world and all regions of Portugal, offering a personalized and high-quality service.",
         Rodolfo_feedback: "“NEW LIFE….! I came across jmicropigmentation's work through social media and was impressed; I finally knew that my problem had a solution and didn't take long to decide… I did scalp micropigmentation on my entire head and couldn't be more satisfied with the result. My self-esteem skyrocketed and I am immensely grateful to Jorge; the CR7 of micropigmentation in Portugal”",
         vitorFeedback: "“I can't be more grateful to Jorge for his effort and dedication in restoring my scar. I hope my case can give hope to other people disappointed by negative experiences... I believed in his art from the beginning and I am very happy to have made this decision” ",
-        Feedback_cicatricial: "Surgery, accident, or other injury scars can deeply affect people's self-esteem and quality of life. That's why JMicropigmentation offers the scar micropigmentation technique, which involves applying pigments to the skin to camouflage scars and improve the overall appearance of the skin. With more than 8 years of experience and a highly qualified team, we serve clients from all over the world and from all regions of Portugal, offering long-lasting and natural results. At JMicropigmentation, we strive to provide a personalized and high-quality service to each client.",
+        Feedback_cicatricial: "Surgery, accident, or other injury scars can deeply affect people's self-esteem and quality of life. That's why JMicropigmentation offers the scar micropigmentation technique, which involves applying pigments to the skin to camouflage scars and improve the overall appearance of the skin. With more than 10 years of experience and a highly qualified team, we serve clients from all over the world and from all regions of Portugal, offering long-lasting and natural results. At JMicropigmentation, we strive to provide a personalized and high-quality service to each client.",
         reclamacoes: "Complaints Book",
       },
     },
@@ -170,9 +170,9 @@ i18n.use(initReactI18next).init({
           "A micropigmentação cicatricial é uma técnica de aplicação de pigmentos na pele, com o objetivo de camuflar cicatrizes causadas por cirurgias, acidentes ou outras lesões. A técnica envolve aplicar pigmento na área da cicatriz para criar uma aparência mais uniforme e natural. O resultado pode durar de 4 a 8 anos em média, com sessões de retoque periódicas. A técnica pode ser usada em várias áreas do corpo, como rosto, couro cabeludo, seios, entre outros.",
         KNOW_OUR_HISTORY: "CONHEÇA A NOSSA HISTÓRIA",
         WHY_CHOOSE_US: "POR QUE ESCOLHER-NOS?",
-        YEARS_OF_EXPERIENCE: "MAIS DE 8 ANOS DE EXPERIÊNCIA",
+        YEARS_OF_EXPERIENCE: "MAIS DE 10 ANOS DE EXPERIÊNCIA",
         YEARS_OF_EXPERIENCE_DESC:
-          "Com mais de 8 anos de experiência no mercado de micropigmentação capilar hiper-realista, a JMicropigmentation oferece aos seus clientes um serviço de qualidade e excelência.",
+          "Com mais de 10 anos de experiência no mercado de micropigmentação capilar hiper-realista, a JMicropigmentation oferece aos seus clientes um serviço de qualidade e excelência.",
         NATIONWIDE_SERVICE: "SERVIÇO EM TODO O TERRITÓRIO NACIONAL",
         NATIONWIDE_SERVICE_DESC:
           "A JMicropigmentation atende clientes em todo o território português, de norte a sul e ilhas, oferecendo um serviço de alta qualidade e comodidade.",
@@ -187,7 +187,7 @@ i18n.use(initReactI18next).init({
         clinicDesc: "CLÍNICA DE MICROPIGMENTAÇÃO HIPER-REALISTA",
         myStory: "A MINHA HISTÓRIA",
         storyText:
-          "Começou com uma ideia de ajudar pessoas sofrendo de qualquer tipo de calvície. Para isso, dediquei vários anos ao estudo de várias técnicas em vários países do mundo, a fim de criar uma metodologia única e pessoal especializada em corrigir e resolver o problema da alopecia com o maior nível de realismo; que defini como: 'TÉCNICA GRANULADA' pela jmicropigmentation. Com mais de 8 anos de experiência sendo pioneiro desta técnica, e com um vasto número de clientes satisfeitos, consegui realizar outro sonho: abrir minha própria clínica de micropigmentação em Lisboa! Desde a abertura, atendemos mais de 200 clientes de várias nacionalidades e viajamos várias vezes por mês para várias cidades de Portugal com o objetivo de atender clientes em outras regiões.",
+          "Começou com uma ideia de ajudar pessoas sofrendo de qualquer tipo de calvície. Para isso, dediquei vários anos ao estudo de várias técnicas em vários países do mundo, a fim de criar uma metodologia única e pessoal especializada em corrigir e resolver o problema da alopecia com o maior nível de realismo; que defini como: 'TÉCNICA GRANULADA' pela jmicropigmentation. Com mais de 10 anos de experiência sendo pioneiro desta técnica, e com um vasto número de clientes satisfeitos, consegui realizar outro sonho: abrir minha própria clínica de micropigmentação em Lisboa! Desde a abertura, atendemos milhares de clientes de várias nacionalidades e viajamos várias vezes por mês para várias cidades de Portugal com o objetivo de atender clientes em outras regiões.",
         followUs: "SIGA O NOSSO TRABALHO NAS REDES SOCIAIS",
         "MICROPIGMENTAÇÃO CAPILAR": "MICROPIGMENTAÇÃO CAPILAR",
         "HIPER-REALISTA": "HIPER-REALISTA",
@@ -260,7 +260,7 @@ i18n.use(initReactI18next).init({
           "Sim, é possível personalizar a cor e a densidade dos fios pigmentados para obter um resultado natural e personalizado.",
         //New Facial
         Feedback_facial:
-          "As sobrancelhas falhadas, lábios sem definição e olhos sem expressão podem afetar a autoestima e a confiança de qualquer pessoa. É por isso que oferecemos a técnica de micropigmentação facial, que consiste na aplicação de pigmentos na pele para corrigir imperfeições e realçar a beleza natural de cada indivíduo. Com mais de 8 anos de experiência e uma equipe altamente qualificada, a JMicropigmentation oferece resultados duradouros e naturais em todo o país, do Norte ao Sul de Portugal e Ilhas.",
+          "As sobrancelhas falhadas, lábios sem definição e olhos sem expressão podem afetar a autoestima e a confiança de qualquer pessoa. É por isso que oferecemos a técnica de micropigmentação facial, que consiste na aplicação de pigmentos na pele para corrigir imperfeições e realçar a beleza natural de cada indivíduo. Com mais de 10 anos de experiência e uma equipe altamente qualificada, a JMicropigmentation oferece resultados duradouros e naturais em todo o país, do Norte ao Sul de Portugal e Ilhas.",
         Is_Facial_Micropigmentation_Safe: "A micropigmentação facial é segura?",
         Is_Facial_Micropigmentation_Safe_Answer:
           "Sim, a micropigmentação facial é segura quando realizada por um profissional experiente e qualificado.",
@@ -291,7 +291,7 @@ i18n.use(initReactI18next).init({
           "O resultado da micropigmentação paramédica pode durar de 4 a 8 anos, dependendo do tipo de pele e dos cuidados pós-procedimento.",
         //New Cicatricial
         Feedback_cicatricial:
-          "Cicatrizes de cirurgias, acidentes ou outras lesões podem afetar profundamente a autoestima e a qualidade de vida das pessoas. É por isso que a JMicropigmentation oferece a técnica de micropigmentação cicatricial, que consiste na aplicação de pigmentos na pele para camuflar as cicatrizes e melhorar a aparência geral da pele. Com mais de 8 anos de experiência e uma equipe altamente qualificada, atendemos clientes de todo o mundo e de todas as regiões de Portugal, oferecendo resultados duradouros e naturais. Na JMicropigmentation, nos esforçamos para oferecer um serviço personalizado e de alta qualidade para cada cliente.",
+          "Cicatrizes de cirurgias, acidentes ou outras lesões podem afetar profundamente a autoestima e a qualidade de vida das pessoas. É por isso que a JMicropigmentation oferece a técnica de micropigmentação cicatricial, que consiste na aplicação de pigmentos na pele para camuflar as cicatrizes e melhorar a aparência geral da pele. Com mais de 10 anos de experiência e uma equipe altamente qualificada, atendemos clientes de todo o mundo e de todas as regiões de Portugal, oferecendo resultados duradouros e naturais. Na JMicropigmentation, nos esforçamos para oferecer um serviço personalizado e de alta qualidade para cada cliente.",
         vitorFeedback:
           "“Não posso estar mais agradecido com o jorge pelo empenho e dedicação em restaurar a minha cicatriz, espero que o meu caso possa dar esperança a outras pessoas desiludidas por terem passado por experiências negativas... Acreditei na sua arte desde o início e estou super feliz de ter tomado esta decisão” ",
         Is_Scar_Scalp_Micropigmentation_Possible_On_Any_Scar:
@@ -312,14 +312,14 @@ i18n.use(initReactI18next).init({
       translation: {
         reclamacoes: "Libro de reclamaciones",
 
-        Feedback_cicatricial: "Las cicatrices de cirugías, accidentes u otras lesiones pueden afectar profundamente la autoestima y la calidad de vida de las personas. Por eso JMicropigmentation ofrece la técnica de micropigmentación cicatricial, que consiste en la aplicación de pigmentos en la piel para camuflar cicatrices y mejorar la apariencia general de la piel. Con más de 8 años de experiencia y un equipo altamente calificado, atendemos a clientes de todo el mundo y de todas las regiones de Portugal, ofreciendo resultados duraderos y naturales. En JMicropigmentation, nos esforzamos por brindar un servicio personalizado y de alta calidad a cada cliente.",
+        Feedback_cicatricial: "Las cicatrices de cirugías, accidentes u otras lesiones pueden afectar profundamente la autoestima y la calidad de vida de las personas. Por eso JMicropigmentation ofrece la técnica de micropigmentación cicatricial, que consiste en la aplicación de pigmentos en la piel para camuflar cicatrices y mejorar la apariencia general de la piel. Con más de 10 años de experiencia y un equipo altamente calificado, atendemos a clientes de todo el mundo y de todas las regiones de Portugal, ofreciendo resultados duraderos y naturales. En JMicropigmentation, nos esforzamos por brindar un servicio personalizado y de alta calidad a cada cliente.",
         vitorFeedback: "“No puedo estar más agradecido con Jorge por su esfuerzo y dedicación en restaurar mi cicatriz. Espero que mi caso pueda dar esperanza a otras personas decepcionadas por experiencias negativas... Creí en su arte desde el principio y estoy muy feliz de haber tomado esta decisión” ",
 
         Rodolfo_feedback: "“NUEVA VIDA….! Conocí el trabajo de jmicropigmentation a través de las redes sociales y quedé impresionado; finalmente supe que mi problema tenía solución y no tardé mucho en decidirme… Me hice la micropigmentación capilar en toda la cabeza y no podría estar más satisfecho con el resultado. Mi autoestima se disparó y estoy inmensamente agradecido a Jorge; el CR7 de la micropigmentación en Portugal”",
 
         Feedback_areata: "JMicropigmentation también ofrece servicios de micropigmentación paramédica para corregir y suavizar la pérdida de cabello causada por condiciones dermatológicas. Nuestro equipo de especialistas utiliza técnicas avanzadas y pigmentos de alta calidad para garantizar resultados duraderos y naturales. Atendemos a clientes de todo el mundo y de todas las regiones de Portugal, ofreciendo un servicio personalizado y de alta calidad.",
 
-        storyText: "Mi historia comenzó con la idea de ayudar a las personas que sufren de cualquier tipo de calvicie. Para ello, dediqué varios años al estudio de diversas técnicas en varios países del mundo, con el fin de crear una metodología única y personal especializada en corregir y solucionar el problema de la alopecia con el mayor nivel de realismo; lo que definí como: 'TÉCNICA GRANULADA' por JMicropigmentation. Con más de 8 años de experiencia siendo pionero de esta técnica, y con un gran número de clientes satisfechos, logré realizar otro sueño: abrir mi propia clínica de micropigmentación en Lisboa. Desde la apertura, hemos atendido a más de 200 clientes de diversas nacionalidades y viajamos varias veces al mes a diferentes ciudades de Portugal con el objetivo de atender a clientes en otras regiones.",
+        storyText: "Mi historia comenzó con la idea de ayudar a las personas que sufren de cualquier tipo de calvicie. Para ello, dediqué varios años al estudio de diversas técnicas en varios países del mundo, con el fin de crear una metodología única y personal especializada en corregir y solucionar el problema de la alopecia con el mayor nivel de realismo; lo que definí como: 'TÉCNICA GRANULADA' por JMicropigmentation. Con más de 10 años de experiencia siendo pionero de esta técnica, y con un gran número de clientes satisfechos, logré realizar otro sueño: abrir mi propia clínica de micropigmentación en Lisboa. Desde la apertura, hemos atendido miles de clientes de diversas nacionalidades y viajamos varias veces al mes a diferentes ciudades de Portugal con el objetivo de atender a clientes en otras regiones.",
 
         "Quem Somos": "Quiénes Somos",
         Serviços: "Servicios",
@@ -345,9 +345,9 @@ i18n.use(initReactI18next).init({
           "La micropigmentación cicatricial es una técnica para aplicar pigmentos en la piel, con el objetivo de camuflar cicatrices causadas por cirugías, accidentes u otras lesiones. La técnica implica aplicar pigmento en el área de la cicatriz para crear una apariencia más uniforme y natural. El resultado puede durar de 4 a 8 años en promedio, con sesiones de retoque periódicas. La técnica se puede utilizar en varias áreas del cuerpo, como la cara, cuero cabelludo, senos, entre otros.",
         KNOW_OUR_HISTORY: "CONOZCA NUESTRA HISTORIA",
         WHY_CHOOSE_US: "¿POR QUÉ ELEGIRNOS?",
-        YEARS_OF_EXPERIENCE: "MÁS DE 8 AÑOS DE EXPERIENCIA",
+        YEARS_OF_EXPERIENCE: "MÁS DE 10 AÑOS DE EXPERIENCIA",
         YEARS_OF_EXPERIENCE_DESC:
-          "Con más de 8 años de experiencia en el mercado de la micropigmentación capilar hiper-realista, JMicropigmentation ofrece a sus clientes un servicio de calidad y excelencia.",
+          "Con más de 10 años de experiencia en el mercado de la micropigmentación capilar hiper-realista, JMicropigmentation ofrece a sus clientes un servicio de calidad y excelencia.",
         NATIONWIDE_SERVICE: "SERVICIO A NIVEL NACIONAL",
         NATIONWIDE_SERVICE_DESC:
           "JMicropigmentation atiende a clientes en todo el territorio portugués, de norte a sur y en las islas, ofreciendo un servicio de alta calidad y comodidad.",
@@ -390,7 +390,7 @@ i18n.use(initReactI18next).init({
         Depois: "DESPUÉS",
         FEEDBACK: "RETROALIMENTACIÓN",
         "GIL GONÇALVES": "GIL GONÇALVES",
-        Feedback_facial: "Las cejas despobladas, los labios sin definición y los ojos sin expresión pueden afectar la autoestima y la confianza de cualquier persona. Por eso ofrecemos la técnica de micropigmentación facial, que consiste en la aplicación de pigmentos en la piel para corregir imperfecciones y realzar la belleza natural de cada individuo. Con más de 8 años de experiencia y un equipo altamente calificado, JMicropigmentation ofrece resultados duraderos y naturales en todo el país, desde el norte hasta el sur de Portugal y las islas.",
+        Feedback_facial: "Las cejas despobladas, los labios sin definición y los ojos sin expresión pueden afectar la autoestima y la confianza de cualquier persona. Por eso ofrecemos la técnica de micropigmentación facial, que consiste en la aplicación de pigmentos en la piel para corregir imperfecciones y realzar la belleza natural de cada individuo. Con más de 10 años de experiencia y un equipo altamente calificado, JMicropigmentation ofrece resultados duraderos y naturales en todo el país, desde el norte hasta el sur de Portugal y las islas.",
         gilFeedback:
           "“Mirarse al espejo y gustarse lo que vemos no tiene precio, sino mucho valor. Gracias a jmicropigmentation por la maravillosa obra de arte, por ser parte de mi cambio y por ofrecer un servicio de excelencia;... Ahora mi confianza y autoestima están completamente recuperadas”",
         "O NOSSO ESPAÇO": "NUESTRO ESPACIO",
