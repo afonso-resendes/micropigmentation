@@ -14,15 +14,15 @@ export default function Home() {
 
   // Your images in the slide directory
   const images = [
-    "/home/IMG_2307.PNG",
-    "/home/IMG_2304.PNG",
-    "/home/IMG_2308.PNG",
-    "/home/IMG_2309.PNG",
-    "/home/IMG_2305.PNG",
-    "/home/IMG_2314.PNG",
-    "/home/IMG_2315.PNG",
-    "/home/IMG_2318.PNG",
-    "/home/IMG_2311.PNG",
+    "/home/home_0.png",
+    "/home/home_1.png",
+    "/home/home_2-3.png",
+    "/home/home_3.png",
+    "/home/home_4.png",
+    "/home/home_5.png",
+    "/home/home_6.png",
+    "/home/home_7.png",
+    "/home/home_8.png",
   ];
 
   const [sliderValue, setSliderValue] = useState(50);
