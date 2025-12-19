@@ -11,9 +11,10 @@ export default function Home() {
   const { t, i18n } = useTranslation();
   // State for the current index
   const [index, setIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
 
-  // Your images in the slide directory
-  const images = [
+  // Desktop images
+  const desktopImages = [
     "/home/home_0.png",
     "/home/home_1.png",
     "/home/home_2-3.png",
@@ -24,6 +25,22 @@ export default function Home() {
     "/home/home_7.png",
     "/home/home_8.png",
   ];
+
+  // Mobile images
+  const mobileImages = [
+    "/home_mobile/IMG_2307.PNG",
+    "/home_mobile/IMG_2304.PNG",
+    "/home_mobile/IMG_2308.PNG",
+    "/home_mobile/IMG_2309.PNG",
+    "/home_mobile/IMG_2305.PNG",
+    "/home_mobile/IMG_2314.PNG",
+    "/home_mobile/IMG_2315.PNG",
+    "/home_mobile/IMG_2318.PNG",
+    "/home_mobile/IMG_2311.PNG",
+  ];
+
+  // Select images based on screen size
+  const images = isMobile ? mobileImages : desktopImages;
 
   const [sliderValue, setSliderValue] = useState(50);
   const [lightboxOpen, setLightboxOpen] = useState(false);
@@ -58,6 +75,21 @@ export default function Home() {
     setSliderValue(newValue);
   };
 
+  // Effect to detect mobile screen size
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= 1000);
+    };
+
+    // Check on mount
+    checkMobile();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   // Effect for cycling through images
   useEffect(() => {
     const timer = setInterval(() => {
@@ -67,7 +99,7 @@ export default function Home() {
     }, 3000); // Change image every 3 seconds
 
     return () => clearInterval(timer);
-  }, []);
+  }, [images.length]);
 
   return (
     <main>
