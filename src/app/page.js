@@ -75,6 +75,12 @@ export default function Home() {
     setSliderValue(newValue);
   };
 
+  // Effect to set page title
+  useEffect(() => {
+    document.title =
+      "JMicropigmentation - Micropigmentação Capilar Hiper-Realista";
+  }, []);
+
   // Effect to detect mobile screen size
   useEffect(() => {
     const checkMobile = () => {
